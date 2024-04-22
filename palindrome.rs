@@ -6,7 +6,7 @@ fn is_palindrome(s: &str) -> bool {
     s == reversed
 }
 
-fn palindrome() {
+fn main() {
     println!("Enter a string:");
     let mut input = String::new();
     io::stdin().read_line(&mut input).expect("Failed to read line");
