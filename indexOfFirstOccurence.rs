@@ -1,6 +1,6 @@
 use std::io;
 
-fn indexOfFirstOccurence() {
+fn main() {
     // Read the sorted array from the user
     println!("Enter a sorted array of integers (space-separated):");
     let mut sorted_array = String::new();
